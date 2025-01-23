@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "a5eb0fb09dc803aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "0601ca23821ed908",
+        "type": "tabs",
+        "dimension": 18.96782841823056,
+        "children": [
+          {
+            "id": "8732dab7661446b9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Setup Notes/WSL & SSH connect.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of WSL & SSH connect"
+            }
+          }
+        ]
+      },
+      {
+        "id": "301ff1f9a47a3363",
+        "type": "tabs",
+        "dimension": 81.03217158176945,
+        "children": [
+          {
+            "id": "ef4479a0003f08da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/WSL & SSH connect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WSL & SSH connect"
+            }
+          },
+          {
+            "id": "88366144940d74b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/WSL & SSH connect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WSL & SSH connect"
+            }
+          },
+          {
+            "id": "1658ef09d1684f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/WSL & SSH connect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WSL & SSH connect"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d92a591f707e4b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "705f8493ac8cba87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea6940d5d35537c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "69e228242b2743dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d4d385cd23542422",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8baef82372704495",
+    "type": "split",
+    "children": [
+      {
+        "id": "e43d3474cf76ad4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67cfd8438912a7a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "create a link.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for create a link"
+            }
+          },
+          {
+            "id": "80837cbb3a66d370",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "create a link.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from create a link"
+            }
+          },
+          {
+            "id": "82f6dec46bd4a36b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "705c17ac40a3bf67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "create a link.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of create a link"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1658ef09d1684f70",
+  "lastOpenFiles": [
+    "Setup Notes/OhMyZsh.md",
+    "Setup Notes/WSL & SSH connect.md",
+    "Setup Notes/WSL & SSH connect 1.md",
+    "Book Assignment/Phosporescence.md",
+    "2025-01-22.md",
+    "Book Assignment",
+    "create a link.md",
+    "Setup Notes",
+    "Welcome.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
