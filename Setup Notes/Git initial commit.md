@@ -51,7 +51,7 @@ git branch --set-upstream-to=origin/main main
 
 ```powershell
 
-git pull git pull origin main --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories
 ```
 
 the you can not execute the git push
