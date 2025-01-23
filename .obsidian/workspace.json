@@ -208,11 +208,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "1658ef09d1684f70",
   "lastOpenFiles": [
+    "README.md",
     "Setup Notes/OhMyZsh.md",
     "Setup Notes/WSL & SSH connect.md",
     "Setup Notes/WSL & SSH connect 1.md",
