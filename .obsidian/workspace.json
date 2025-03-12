@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book Assignment/Phosporescence.md",
+                "file": "Prog Notes/Tailwind CSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Phosporescence"
+              "title": "Outline of Tailwind CSS"
             }
           }
         ]
@@ -162,16 +162,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book Assignment/Phosporescence.md",
+                "file": "maze notes/Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phosporescence"
+              "title": "Reference"
+            }
+          },
+          {
+            "id": "619928017bf6a48e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/Git initial commit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git initial commit"
+            }
+          },
+          {
+            "id": "8e0e0806f481543e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prog Notes/Tailwind CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind CSS"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -314,19 +342,22 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "df278ee70d74baf4",
+  "active": "8e0e0806f481543e",
   "lastOpenFiles": [
-    "README.md",
-    "maze notes/Reference.md",
-    "maze notes/Error handling.md",
-    "Setup Notes/WSL & SSH connect.md",
-    "Setup Notes/Git initial commit.md",
-    "maze notes/Notes.md",
+    "maze notes/To Do.md",
     "maze notes/Effect summary notes.md",
-    "maze notes",
+    "maze notes/Reference.md",
+    "maze notes/Notes.md",
+    "maze notes/Error handling.md",
+    "Prog Notes/Tailwind CSS.md",
+    "Setup Notes/WSL & SSH connect.md",
     "Setup Notes/OhMyZsh.md",
-    "Setup Notes/WSL & SSH connect 1.md",
+    "Setup Notes/Git initial commit.md",
+    "Prog Notes",
     "Book Assignment/Phosporescence.md",
+    "README.md",
+    "maze notes",
+    "Setup Notes/WSL & SSH connect 1.md",
     "2025-01-22.md",
     "Book Assignment",
     "create a link.md",
