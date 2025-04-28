@@ -96,3 +96,12 @@ Host <UbuntuWSL>
     Port <Port>
 
     User <your_username>
+   
+sudo sh -c "echo 'katsu ALL=(root) NOPASSWD: /usr/sbin/service ssh start' >/etc/sudoers.d/service-ssh-start"
+
+cursor ai 
+
+
+
+
+

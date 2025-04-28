@@ -9,4 +9,15 @@ sudo apt install zsh -y
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
+check config of zsh
+```ubuntu
+nano /home/kitkath/.zshrc        
+```
 
+
+which moon
+whoami
+
+```javascript
+sudo chown -R $(whoami) ~/.npm
+```

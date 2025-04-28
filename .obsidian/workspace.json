@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prog Notes/Tailwind CSS.md",
+                "file": "Prog Notes/Firebase.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tailwind CSS"
+              "title": "Outline of Firebase"
             }
           }
         ]
@@ -197,9 +197,79 @@
               "icon": "lucide-file",
               "title": "Tailwind CSS"
             }
+          },
+          {
+            "id": "9d1d62950a223f02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/Git initial commit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git initial commit"
+            }
+          },
+          {
+            "id": "9087471eb5617f64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "9c535b0a8d158ea8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prog Notes/Tailwind CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind CSS"
+            }
+          },
+          {
+            "id": "a453bc83e74a7e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prog Notes/Firebase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Firebase"
+            }
+          },
+          {
+            "id": "e0f648da91488573",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/WSL & SSH connect.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WSL & SSH connect"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -256,7 +326,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "8baef82372704495",
@@ -342,20 +412,24 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8e0e0806f481543e",
+  "active": "8732dab7661446b9",
   "lastOpenFiles": [
-    "maze notes/To Do.md",
-    "maze notes/Effect summary notes.md",
-    "maze notes/Reference.md",
-    "maze notes/Notes.md",
-    "maze notes/Error handling.md",
     "Prog Notes/Tailwind CSS.md",
+    "Prog Notes/Firebase.md",
     "Setup Notes/WSL & SSH connect.md",
     "Setup Notes/OhMyZsh.md",
+    "Setup Notes/Linux WSL.md",
     "Setup Notes/Git initial commit.md",
+    "Setup Notes/Moon and Proto.md",
+    "Setup Notes/Node Package.md",
+    "README.md",
+    "maze notes/Reference.md",
+    "maze notes/Notes.md",
+    "maze notes/Effect summary notes.md",
+    "maze notes/Error handling.md",
+    "maze notes/To Do.md",
     "Prog Notes",
     "Book Assignment/Phosporescence.md",
-    "README.md",
     "maze notes",
     "Setup Notes/WSL & SSH connect 1.md",
     "2025-01-22.md",
