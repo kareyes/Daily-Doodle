@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup Notes/Docker.md",
+                "file": "Setup Notes/Google Cloud CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker"
+              "title": "Outline of Google Cloud CLI"
             }
           }
         ]
@@ -50,12 +50,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Notes/Docker.md",
+                "file": "Setup Notes/Google Cloud CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Google Cloud CLI"
             }
           }
         ],
@@ -204,13 +204,13 @@
   },
   "active": "0819e7fad36995a8",
   "lastOpenFiles": [
-    "Setup Notes/Google Cloud CLI.md",
     "Setup Notes/Git initial commit.md",
     "Setup Notes/Generating a new SSH key and add to Github account.md",
     "Setup Notes/Docker.md",
     "Setup Notes/WSL Notes.md",
-    "Setup Notes/Moon and Proto.md",
     "Setup Notes/WSL & SSH connect.md",
+    "Setup Notes/Moon and Proto.md",
+    "Setup Notes/Google Cloud CLI.md",
     "Setup Notes/OhMyZsh.md",
     "Setup Notes/Node Package.md",
     "Setup Notes/WSL notes.md",

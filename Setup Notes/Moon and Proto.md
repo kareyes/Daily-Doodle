@@ -1,30 +1,125 @@
 
+### Install Proto
 
+Step 1: Install `proto`
 
-install proto
-
-```linux
+```
 apt-get install git unzip gzip xz-utils
 ```
 
-```linux
+```
 bash <(curl -fsSL https://moonrepo.dev/install/proto.sh)
+```
+
+Step 2: Initialize proto in your repo
+
+```
+proto init
+```
+
+This creates a `.proto` folder with config.
+
+Step 3: Install Tools (e.g., Node.js)
+
+```
+proto install node
+```
+
+Step 4: Set a specific version (per project)
+In `.prototools`:
+
+```
+node = "20.11.0"
+```
+
+Then run:
+
+```
+proto install
+```
+
+Shims
+
+```
+proto run node -- --version
+## 20.0.0
+```
+
+```
+node --version
+## 20.0.0
+```
+
+```
+which node
+## ~/.proto/shims/node
+```
+### Install Moon
+
+```
+proto install moon
+```
+
+
+### Initialize Moonrepo
+
+Run this in your project root:
+
+```
+moon init
+```
+This will ask a few questions and generate the Moonrepo configuration.
+
+
+
+### Add Projects
+
+Moon will detect projects based on their `package.json` by default (you can override this in `workspace.yml`).
+
+Example `workspace.yml`:
+
+```
+projects:
+  - node-apps/*
+  - packages/*
 
 ```
 
 
-install apt in moon tool chain
+### Define Tasks (in `moon.yml` inside each project)
+
+Example `apps/maze/moon.yml`:
+
+```
+type: 'application'
+
+language: 'typescript'
+
+tasks:
+  dev:
+    command: 'tsx --no-watch --experimental-sqlite src/app.ts'
+    local: true
+    options:
+      envFile: '/.env.shared'
+
+  format:
+    command: 'biome check --fix --unsafe'
+```
+
+
+
+Displays detailed information about a project defined in your Moonrepo workspace.
+
+```
+moon project maze
+```
+
+
+install specific package in moon tool chain
 
 ```linux
 moon init <tool>
 e.g moon init npm
 ```
 
-initialize project workspace 
-
-note create moon.yml file 
-
-```linux
-moon project <package>
-```
 
