@@ -89,17 +89,21 @@ open VSCode
 3. edit C:>Users\<pc_name>.ssh\config
 
 
-Host <UbuntuWSL>
+```Host <UbuntuWSL>
 
     HostName localhost
 
     Port <Port>
 
     User <your_username>
-   
-sudo sh -c "echo 'katsu ALL=(root) NOPASSWD: /usr/sbin/service ssh start' >/etc/sudoers.d/service-ssh-start"
+   ```
 
-cursor ai 
+Run with caution XD  
+
+```
+sudo sh -c "echo 'katsu ALL=(root) NOPASSWD: /usr/sbin/service ssh start' >/etc/sudoers.d/service-ssh-start"
+```
+ 
 
 
 

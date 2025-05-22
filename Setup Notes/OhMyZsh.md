@@ -15,8 +15,10 @@ nano /home/kitkath/.zshrc
 ```
 
 
+```
 which moon
-whoami
+```
+
 
 ```javascript
 sudo chown -R $(whoami) ~/.npm

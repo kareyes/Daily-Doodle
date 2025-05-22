@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prog Notes/Firebase.md",
+                "file": "Setup Notes/Google Cloud CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Firebase"
+              "title": "Outline of Google Cloud CLI"
             }
           }
         ]
@@ -31,245 +31,20 @@
         "dimension": 81.03217158176945,
         "children": [
           {
-            "id": "ef4479a0003f08da",
+            "id": "8fbc4a8655adbcce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Notes/WSL & SSH connect.md",
+                "file": "Setup Notes/Google Cloud CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSL & SSH connect"
-            }
-          },
-          {
-            "id": "88366144940d74b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Notes/WSL & SSH connect.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WSL & SSH connect"
-            }
-          },
-          {
-            "id": "1658ef09d1684f70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Notes/WSL & SSH connect.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WSL & SSH connect"
-            }
-          },
-          {
-            "id": "447d2d380e906f25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Notes/Git initial commit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git initial commit"
-            }
-          },
-          {
-            "id": "508d3c7c625bcfea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maze notes/Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notes"
-            }
-          },
-          {
-            "id": "4bceedab3c8c415c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maze notes/Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notes"
-            }
-          },
-          {
-            "id": "5e4c55d1a2cf7521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maze notes/Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notes"
-            }
-          },
-          {
-            "id": "6223699255c5db62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maze notes/Reference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reference"
-            }
-          },
-          {
-            "id": "ec194b881e291cca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maze notes/Reference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reference"
-            }
-          },
-          {
-            "id": "df278ee70d74baf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "maze notes/Reference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reference"
-            }
-          },
-          {
-            "id": "619928017bf6a48e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Notes/Git initial commit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git initial commit"
-            }
-          },
-          {
-            "id": "8e0e0806f481543e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prog Notes/Tailwind CSS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tailwind CSS"
-            }
-          },
-          {
-            "id": "9d1d62950a223f02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Notes/Git initial commit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git initial commit"
-            }
-          },
-          {
-            "id": "9087471eb5617f64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "9c535b0a8d158ea8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prog Notes/Tailwind CSS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tailwind CSS"
-            }
-          },
-          {
-            "id": "a453bc83e74a7e69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prog Notes/Firebase.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Firebase"
-            }
-          },
-          {
-            "id": "e0f648da91488573",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Notes/WSL & SSH connect.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WSL & SSH connect"
+              "title": "Google Cloud CLI"
             }
           }
-        ],
-        "currentTab": 15
+        ]
       }
     ],
     "direction": "vertical"
@@ -412,22 +187,26 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8732dab7661446b9",
+  "active": "8fbc4a8655adbcce",
   "lastOpenFiles": [
-    "Prog Notes/Tailwind CSS.md",
-    "Prog Notes/Firebase.md",
+    "Setup Notes/Generating a new SSH key and add to Github account.md",
+    "Setup Notes/Moon and Proto.md",
+    "Setup Notes/WSL Notes.md",
+    "Setup Notes/Google Cloud CLI.md",
     "Setup Notes/WSL & SSH connect.md",
     "Setup Notes/OhMyZsh.md",
-    "Setup Notes/Linux WSL.md",
-    "Setup Notes/Git initial commit.md",
-    "Setup Notes/Moon and Proto.md",
     "Setup Notes/Node Package.md",
+    "Setup Notes/Git initial commit.md",
+    "Setup Notes/WSL notes.md",
+    "Setup Notes/PNPM.md",
     "README.md",
-    "maze notes/Reference.md",
-    "maze notes/Notes.md",
     "maze notes/Effect summary notes.md",
-    "maze notes/Error handling.md",
+    "maze notes/Notes.md",
+    "maze notes/Reference.md",
     "maze notes/To Do.md",
+    "Prog Notes/Firebase.md",
+    "Prog Notes/Tailwind CSS.md",
+    "maze notes/Error handling.md",
     "Prog Notes",
     "Book Assignment/Phosporescence.md",
     "maze notes",
