@@ -11,13 +11,7 @@ apt-get install git unzip gzip xz-utils
 bash <(curl -fsSL https://moonrepo.dev/install/proto.sh)
 ```
 
-Step 2: Initialize proto in your repo
-
-```
-proto init
-```
-
-This creates a `.proto` folder with config.
+Step 2: create a `.prototools` file at the root of your repo:
 
 Step 3: Install Tools (e.g., Node.js)
 
@@ -25,7 +19,7 @@ Step 3: Install Tools (e.g., Node.js)
 proto install node
 ```
 
-Step 4: Set a specific version (per project)
+If you want to set a specific version (per project)
 In `.prototools`:
 
 ```

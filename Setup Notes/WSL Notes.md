@@ -1,5 +1,5 @@
 
-open as 
+open as wsl in powershell
 ```
 wsl.exe -d Debian
 ```

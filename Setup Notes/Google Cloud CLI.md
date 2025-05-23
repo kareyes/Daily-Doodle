@@ -56,3 +56,23 @@ gcloud config list
 
 
 
+### Changes for Docker
+
+1. Enable Artifact Registry
+2. Enable the API from [Google Cloud console](https://console.cloud.google.com/flows/enableapi?apiid=artifactregistry.googleapis.com) or with the following `gcloud` command
+
+```
+gcloud services enable artifactregistry.googleapis.com
+```
+
+#### Configure authentication to Artifact Registry for Docker
+
+1. 1. Verify that the account you are using for authentication has [permission](https://cloud.google.com/artifact-registry/docs/access-control) to access Artifact Registry. We recommend using a [service account](https://cloud.google.com/iam/docs/service-accounts) rather than a user account.
+2. Docker requires privileged access to interact with registries
+	1. The Docker security group is called `docker`. To add your username, run the following command:
+	
+	```
+	      sudo usermod -a -G docker ${USER}
+	```
+	
+
