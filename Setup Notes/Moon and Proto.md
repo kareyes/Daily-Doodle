@@ -32,7 +32,7 @@ Then run:
 proto install
 ```
 
-Shims
+ shims
 
 ```
 proto run node -- --version
@@ -97,12 +97,12 @@ tasks:
       envFile: '/.env.shared'
 
   format:
-    command: 'biome check --fix --unsafe'
+    command: 'biome check --fix'
 ```
 
 
 
-Displays detailed information about a project defined in your Moonrepo workspace.
+Displays detailed information about a project defined in your `Moonrepo` workspace.
 
 ```
 moon project maze
