@@ -1,13 +1,13 @@
 
 ### Install Google Cloud CLI
 
-It has recently updated its packages
+update to recent packages
 
 ```
 sudo apt-get update
 ```
 
-It has [`apt-transport-https`](https://packages.debian.org/bullseye/apt-transport-https) and `curl` installed:
+install [`apt-transport-https`](https://packages.debian.org/bullseye/apt-transport-https) and `curl`:
 
 ```
 sudo apt-get install apt-transport-https ca-certificates gnupg curl
@@ -114,4 +114,129 @@ gcloud auth configure-docker ${HOSTNAME-LIST}
 e.g 
 gcloud auth configure-docker us-west1-docker.pkg.dev,asia-northeast1-docker.pkg.dev
 ```
+
+
+#### Configure remote repository authentication to Docker Hub [Ref](https://cloud.google.com/artifact-registry/docs/docker/configure-remote-auth-docker-hub)
+
+
+1. Sign in to [Docker Hub](https://www.docker.com/products/docker-hub/).
+2. 1. Create a personal [access token](https://docs.docker.com/docker-hub/access-tokens/) with **read-only** permissions.
+3. Copy the access token and Save the access token in a text file in your local or Cloud Shell.
+4. Create a Secret in [Secret Manager](https://cloud.google.com/secret-manager/docs/creating-and-accessing-secrets)
+5. Grant the Artifact Registry service account access to your secret
+```
+gcloud secrets add-iam-policy-binding ${secret-id} \
+    --member="${member}" \
+    --role="roles/secretmanager.secretAccessor"
+
+
+e.g
+gcloud secrets add-iam-policy-binding docker-secret-token \
+  --member="serviceAccount:gcp-artemis@ouro-460410.iam.gserviceaccount.com" \
+  --role="roles/secretmanager.secretAccessor"
+```
+
+
+### Create repository
+
+```
+gcloud artifacts repositories create ${REPO} \
+  --repository-format=docker \
+  --location=${LOCATION} \
+  --description="Standard Docker repo"
+
+
+gcloud artifacts repositories create apollo \
+  --repository-format=docker \
+  --location=asia-northeast1 \
+  --description="Standard Docker repo"
+```
+
+####  Add Docker Hub credentials to your remote repository [ref](https://cloud.google.com/artifact-registry/docs/docker/configure-remote-auth-docker-hub)
+
+
+1. Open and create [Repositories](https://console.cloud.google.com/artifacts) page in the Google Cloud console.
+2.  Fill in the Docker remote credentials to access Remote repository authentication mode. 
+
+
+
+#### Push images to Artifacts Repo [ref](https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling)
+
+1. Tag your image. make sure you already build your docker image before
+```
+docker tag my-app ${LOCATION}-docker.pkg.dev/PROJECT-ID/REPO-NAME/my-app:latest
+
+e.g
+docker tag ourosamp asia-northeast1-docker.pkg.dev/ouro-460410/apollo/ourosamp
+```
+
+2. Authenticate Docker with Artifact Registry
+
+```
+gcloud auth configure-docker sia-northeast1-docker.pkg.dev
+
+```
+
+3. Push the image
+
+```
+docker push us-central1-docker.pkg.dev/PROJECT-ID/REPO-NAME/my-app:latest
+
+
+e.g
+
+docker push asia-northeast1-docker.pkg.dev/ouro-460410/apollo/ourosamp
+```
+
+
+### Deploy image to Cloud Run
+
+1. Ensure Permissions Are Set Correctly
+
+```
+PROJECT_NUMBER=$(gcloud projects describe ${PROJECT ID} --format="value(projectNumber)")
+
+gcloud projects add-iam-policy-binding PROJECT-ID \
+  --member="serviceAccount:service-${PROJECT_NUMBER}@serverless-robot-prod.iam.gserviceaccount.com" \
+  --role="roles/artifactregistry.reader"
+
+e.g
+
+PROJECT_NUMBER=$(gcloud projects describe ouro-460410 --format="value(projectNumber)")
+
+
+gcloud projects add-iam-policy-binding ouro-460410 \
+  --member="serviceAccount:service-${PROJECT_NUMBER}@serverless-robot-prod.iam.gserviceaccount.com" \
+  --role="roles/artifactregistry.reader"
+```
+
+
+2. deploy command
+
+```
+gcloud run deploy my-app \
+  --image=us-central1-docker.pkg.dev/PROJECT-ID/REPO-NAME/my-app:latest \
+  --region=us-central1 \
+  --platform=managed \
+  --allow-unauthenticated
+
+e.g
+
+
+gcloud run deploy ourosamp1 \
+  --image=asia-northeast1-docker.pkg.dev/ouro-460410/apollo/ourosamp1:latest \
+  --region=asia-northeast1 \
+  --platform=managed \
+  --allow-unauthenticated
+```
+
+
+Display artifacts repo details
+
+```
+gcloud artifacts repositories describe apollo \
+    --project=ouro-460410 \
+    --location=us-west1
+```
+
 

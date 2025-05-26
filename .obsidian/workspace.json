@@ -218,9 +218,9 @@
   },
   "active": "750f1a9b048b8b11",
   "lastOpenFiles": [
-    "Setup Notes/Moon and Proto.md",
-    "Setup Notes/Google Cloud CLI.md",
     "Setup Notes/Docker.md",
+    "Setup Notes/Google Cloud CLI.md",
+    "Setup Notes/Moon and Proto.md",
     "Setup Notes/Git initial commit.md",
     "Setup Notes/Generating a new SSH key and add to Github account.md",
     "Setup Notes/WSL2 Instance and Enable SSH.md",

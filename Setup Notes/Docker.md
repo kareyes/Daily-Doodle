@@ -153,3 +153,10 @@ docker-compose --project-name projects -f file.yaml up -d
 ```
 docker-compose --project-name projects -f file.yaml up --build
 ```
+
+### Docker push
+
+```
+
+docker push tag <tagname>
+```
