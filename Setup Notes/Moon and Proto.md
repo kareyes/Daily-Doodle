@@ -30,12 +30,15 @@ Then run:
 
 ```
 proto install
+
+to use tthis code
+proto install node <version> --pin
 ```
 
  shims
 
 ```
-proto run node -- --version
+proto run node version 
 ## 20.0.0
 ```
 
