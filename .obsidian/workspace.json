@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup Notes/Google Cloud CLI.md",
+                "file": "Setup Notes/WSL2 Instance and Enable SSH.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Google Cloud CLI"
+              "title": "Outline of WSL2 Instance and Enable SSH"
             }
           }
         ]
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Notes/Google Cloud CLI.md",
+                "file": "Setup Notes/WSL2 Instance and Enable SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Google Cloud CLI"
+              "title": "WSL2 Instance and Enable SSH"
             }
           }
         ],
@@ -218,18 +218,18 @@
   },
   "active": "750f1a9b048b8b11",
   "lastOpenFiles": [
-    "Setup Notes/Docker.md",
-    "Setup Notes/Google Cloud CLI.md",
-    "Setup Notes/Moon and Proto.md",
-    "Setup Notes/Git initial commit.md",
-    "Setup Notes/Generating a new SSH key and add to Github account.md",
-    "Setup Notes/WSL2 Instance and Enable SSH.md",
     "Setup Notes/WSL Notes.md",
+    "Setup Notes/WSL2 Instance and Enable SSH.md",
+    "Setup Notes/WSL & SSH connect.md",
+    "Setup Notes/Google Cloud CLI.md",
+    "Setup Notes/Docker.md",
+    "Prog Notes/Firebase.md",
+    "Setup Notes/Git initial commit.md",
+    "Setup Notes/Moon and Proto.md",
+    "Setup Notes/Generating a new SSH key and add to Github account.md",
     "maze notes/To Do.md",
     "maze notes/Reference.md",
     "Prog Notes/Tailwind CSS.md",
-    "Prog Notes/Firebase.md",
-    "Setup Notes/WSL & SSH connect.md",
     "Setup Notes/OhMyZsh.md",
     "Setup Notes/Generating a new SSH key and add to Github account 1.md",
     "Setup Notes/Node Package.md",

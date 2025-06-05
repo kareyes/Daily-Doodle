@@ -60,3 +60,31 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
 
+Find WSl IP Address
+
+```
+hostname -I
+```
+
+connect to the same server/port, consider adding it to your SSH config file (`~/.ssh/config`):
+
+```
+Host myserver
+    HostName example.com
+    User user
+    Port 2222
+
+```
+
+Then connect using:
+
+```
+ssh myserver
+```
+
+or 
+
+```
+ssh -p [PORT] [USER]@[HOST]
+```
+

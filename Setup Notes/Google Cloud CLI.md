@@ -55,7 +55,6 @@ gcloud config list
 ```
 
 
-
 ### Changes for Docker [ref](https://cloud.google.com/artifact-registry/docs/enable-service)
 
 
@@ -68,7 +67,7 @@ gcloud services enable artifactregistry.googleapis.com
 
 #### Configure authentication to Artifact Registry for Docker [ref](https://cloud.google.com/artifact-registry/docs/docker/authentication)
 
-1. 1. Verify that the account you are using for authentication has [permission](https://cloud.google.com/artifact-registry/docs/access-control) to access Artifact Registry. We recommend using a [service account](https://cloud.google.com/iam/docs/service-accounts) rather than a user account.
+1. 1. Verify that the account you are using for authentication has [permission](https://cloud.google.com/artifact-registry/docs/access-control) to access Artifact Registry. 
 2. Docker requires privileged access to interact with registries
 	1. The Docker security group is called `docker`. To add your username, run the following command:
 	
@@ -145,6 +144,7 @@ gcloud artifacts repositories create ${REPO} \
   --location=${LOCATION} \
   --description="Standard Docker repo"
 
+e.g
 
 gcloud artifacts repositories create apollo \
   --repository-format=docker \
@@ -152,17 +152,10 @@ gcloud artifacts repositories create apollo \
   --description="Standard Docker repo"
 ```
 
-####  Add Docker Hub credentials to your remote repository [ref](https://cloud.google.com/artifact-registry/docs/docker/configure-remote-auth-docker-hub)
-
-
-1. Open and create [Repositories](https://console.cloud.google.com/artifacts) page in the Google Cloud console.
-2.  Fill in the Docker remote credentials to access Remote repository authentication mode. 
-
-
 
 #### Push images to Artifacts Repo [ref](https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling)
 
-1. Tag your image. make sure you already build your docker image before
+1. Tag your image. make sure you already build your docker image before running this command
 ```
 docker tag my-app ${LOCATION}-docker.pkg.dev/PROJECT-ID/REPO-NAME/my-app:latest
 
@@ -170,11 +163,10 @@ e.g
 docker tag ourosamp asia-northeast1-docker.pkg.dev/ouro-460410/apollo/ourosamp
 ```
 
-2. Authenticate Docker with Artifact Registry
+2. Authenticate Docker with Artifact Registry using  credential helper (If it's not yet configured)
 
 ```
-gcloud auth configure-docker sia-northeast1-docker.pkg.dev
-
+gcloud auth configure-docker asia-northeast1-docker.pkg.dev
 ```
 
 3. Push the image
@@ -231,7 +223,7 @@ gcloud run deploy ourosamp1 \
 ```
 
 
-Display artifacts repo details
+#### Display artifacts repo details
 
 ```
 gcloud artifacts repositories describe apollo \
@@ -240,3 +232,7 @@ gcloud artifacts repositories describe apollo \
 ```
 
 
+~~Add Docker Hub credentials to your remote repository [ref](https://cloud.google.com/artifact-registry/docs/docker/configure-remote-auth-docker-hub)
+~~
+1. ~~Open and create [Repositories](https://console.cloud.google.com/artifacts) page in the Google Cloud console.
+2.   F~~ill in the Docker remote credentials to access Remote repository authentication mode. 

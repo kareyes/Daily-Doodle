@@ -11,3 +11,5 @@ firebase deploy --only hosting:mermade-dev-alpha
 Add hosting sites:
 
 firebase hosting:sites:create [SITE_ID]
+
+firebase deploy --only hosting:mermade-dev-echo

@@ -8,6 +8,12 @@ It builds a **Docker image** from a `Dockerfile` in the current directory (`.`) 
 docker build -t my-app .
 ```
 
+specific file path 
+
+```
+docker build -f ./node-apps/artemis/Dockerfile -t ourosamp1 .  
+```
+
 Sample `Dockerfile`:
 
 ```

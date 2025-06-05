@@ -117,3 +117,6 @@ e.g moon init npm
 ```
 
 
+```
+moon sync hooks
+```
