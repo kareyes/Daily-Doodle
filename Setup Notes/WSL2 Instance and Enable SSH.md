@@ -88,3 +88,8 @@ or
 ssh -p [PORT] [USER]@[HOST]
 ```
 
+restart SSH
+
+```
+sudo systemctl restart ssh
+```

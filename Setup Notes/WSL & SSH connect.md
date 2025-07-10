@@ -80,6 +80,10 @@ shut down then restart wsl in new tab
 wsl --shutdown
 ```
 
+```
+wsl --terminate Ubuntu
+
+```
 ### Connect VSCode to WSL via SSH 
 
 open VSCode

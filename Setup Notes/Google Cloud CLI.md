@@ -1,4 +1,4 @@
-
+docker
 ### Install Google Cloud CLI
 
 update to recent packages
@@ -160,7 +160,7 @@ gcloud artifacts repositories create apollo \
 docker tag my-app ${LOCATION}-docker.pkg.dev/PROJECT-ID/REPO-NAME/my-app:latest
 
 e.g
-docker tag ourosamp asia-northeast1-docker.pkg.dev/ouro-460410/apollo/ourosamp
+docker tag maze-api us-central1-docker.pkg.dev/ouro-460410/astrid/maze-api
 ```
 
 2. Authenticate Docker with Artifact Registry using  credential helper (If it's not yet configured)
@@ -215,8 +215,16 @@ gcloud run deploy my-app \
 e.g
 
 
-gcloud run deploy ourosamp1 \
-  --image=asia-northeast1-docker.pkg.dev/ouro-460410/apollo/ourosamp1:latest \
+gcloud run deploy maze-api \
+  --image=us-central1-docker.pkg.dev/ouro-460410/astrid/maze-api:latest \
+  --region=us-central1 \
+  --platform=managed \
+  --allow-unauthenticated
+
+
+
+gcloud run deploy arti \
+  --image=asia-northeast1-docker.pkg.dev/ouro-460410/apollo/arti \
   --region=asia-northeast1 \
   --platform=managed \
   --allow-unauthenticated

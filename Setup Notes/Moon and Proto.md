@@ -38,7 +38,7 @@ proto install node <version> --pin
  shims
 
 ```
-proto run node version 
+pr 
 ## 20.0.0
 ```
 
