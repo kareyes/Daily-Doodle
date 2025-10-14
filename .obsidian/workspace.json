@@ -6,7 +6,6 @@
       {
         "id": "0601ca23821ed908",
         "type": "tabs",
-        "dimension": 18.96782841823056,
         "children": [
           {
             "id": "8732dab7661446b9",
@@ -14,52 +13,73 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prog Notes/Tailwind CSS.md",
+                "file": "Prog Notes/Sveltekit 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tailwind CSS"
+              "title": "Outline of Sveltekit 5"
             }
-          }
-        ]
-      },
-      {
-        "id": "301ff1f9a47a3363",
-        "type": "tabs",
-        "dimension": 81.03217158176945,
-        "children": [
+          },
           {
-            "id": "8fbc4a8655adbcce",
+            "id": "02ce2eb7a2116c5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Notes/WSL Notes.md",
+                "file": "Prog Notes/Sveltekit 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSL Notes"
+              "title": "Sveltekit 5"
             }
           },
           {
-            "id": "0819e7fad36995a8",
+            "id": "58809c6086bf2042",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Notes/WSL Notes.md",
+                "file": "mermade/Users.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSL Notes"
+              "title": "Users"
             }
           },
           {
-            "id": "750f1a9b048b8b11",
+            "id": "2421c99e6a17e167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prog Notes/Sveltekit 5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sveltekit 5"
+            }
+          },
+          {
+            "id": "066d8466531746b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prog Notes/Firebase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Firebase"
+            }
+          },
+          {
+            "id": "6ae9c8ffb693dbf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,9 +91,37 @@
               "icon": "lucide-file",
               "title": "Tailwind CSS"
             }
+          },
+          {
+            "id": "389d531a48bf5d67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git-standards-doc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git-standards-doc"
+            }
+          },
+          {
+            "id": "64b5e9dbf36ca66b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup Notes/Moon and Proto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Moon and Proto"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -207,6 +255,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,37 +265,38 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "750f1a9b048b8b11",
+  "active": "64b5e9dbf36ca66b",
   "lastOpenFiles": [
-    "Prog Notes/Firebase.md",
-    "Setup Notes/Google Cloud CLI.md",
+    "Setup Notes/Git initial commit.md",
+    "Setup Notes/Moon and Proto.md",
     "Setup Notes/federated.md",
     "Setup Notes/Docker.md",
+    "Prog Notes/Svelte5.md",
+    "Prog Notes/Sveltekit 5.md",
+    "git-standards-doc.md",
+    "Prog Notes/CSS.md",
+    "Prog Notes/Tailwind CSS.md",
+    "mermade/Users.md",
+    "mermade",
+    "Setup Notes/WSL Notes.md",
+    "Prog Notes/Firebase.md",
+    "Setup Notes/Google Cloud CLI.md",
     "README.md",
     "maze notes/Reference.md",
     "maze notes/Notes.md",
     "maze notes/Error handling.md",
     "maze notes/Effect summary notes.md",
-    "Setup Notes/Moon and Proto.md",
     "Setup Notes/WSL & SSH connect.md",
-    "Setup Notes/WSL Notes.md",
     "Setup Notes/WSL2 Instance and Enable SSH.md",
-    "Setup Notes/Git initial commit.md",
     "Setup Notes/Generating a new SSH key and add to Github account.md",
     "maze notes/To Do.md",
-    "Prog Notes/Tailwind CSS.md",
     "Setup Notes/OhMyZsh.md",
     "Setup Notes/Generating a new SSH key and add to Github account 1.md",
     "Setup Notes/Node Package.md",
     "Setup Notes/WSL notes.md",
-    "Setup Notes/PNPM.md",
     "Prog Notes",
-    "Book Assignment/Phosporescence.md",
     "maze notes",
-    "Setup Notes/WSL & SSH connect 1.md",
-    "2025-01-22.md",
     "Book Assignment",
-    "create a link.md",
     "Setup Notes",
     "Untitled 1.canvas",
     "Untitled.canvas"

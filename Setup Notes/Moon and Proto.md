@@ -1,4 +1,4 @@
-
+whi
 ### Install Proto
 
 Step 1: Install `proto`
@@ -50,8 +50,25 @@ node --version
 ```
 which node
 ## ~/.proto/shims/node
+
+
+```
+
+#### List all available installed version of package
+
+```
+prtot versions node
+```
+#### Pin new version of package
+```
+proto pin <package> <version>
+
+e.g.
+
+proto pin node 22.14.0
 ```
 ### Install Moon
+
 
 ```
 proto install moon

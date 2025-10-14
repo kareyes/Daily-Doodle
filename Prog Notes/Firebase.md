@@ -6,6 +6,7 @@ npm run build
 
 firebase deploy --only hosting:mermade-dev-delta
 
+
 firebase deploy --only hosting:mermade-dev-alpha
 
 Add hosting sites:
